@@ -1,0 +1,21 @@
+
+.container-fluid{
+    height:100vh;
+}
+.detail{
+    /* margin-left: 15%; */
+    background: rgb(70, 70, 243);
+    width:100%;
+    text-align: center;
+    padding: 2.5%;
+    color: antiquewhite;
+}
+
+.label{
+  
+    padding: 3rem;
+    padding-left: 10% ;
+  
+
+}
+

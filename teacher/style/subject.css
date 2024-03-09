@@ -1,0 +1,17 @@
+.detail{
+    background: rgb(70, 70, 243);
+    width:100%;
+    text-align: center;
+    padding: 2.5%;
+    color: antiquewhite;
+}
+
+.table{
+    margin-top: 2rem;
+    border:1px solid black;
+}
+thead {
+    color:#fff;
+    background: #36a3f7;
+    border:1px solid black;
+} 
