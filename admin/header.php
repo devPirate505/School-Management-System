@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1 style='display: inline-block; margin: 7px 0px 7px 10px;'>
+        XYZ School
+    </h1>
+
+    <div id="menu">
+        <a href="home.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="Contact.php">Contact</a>
+        <a href="logout.php">logout</a>
+    </div>
+
+</body>
+</html>
+
+<?php
+
+echo "<div align='right' style='display: inline-block; width: 58%;'> Welcome " . @$_SESSION['username'] . "</div> <hr/>";
+
+	show_msg();
+
+?>
+
+<style>
+#menu{
+    display: inline-block;
+    margin-left: 100px;
+}
+#menu a{
+    margin-left: 10px;
+}
+</style>

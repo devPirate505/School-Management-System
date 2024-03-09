@@ -1,0 +1,16 @@
+
+.label{
+    padding-left: 10%;
+    padding-top: 3%;
+    margin: auto;
+    text-align: center;
+    /* display: flex; */
+    margin-left:15%;
+    /* width:%; */
+    /* display: inline; */
+}
+.paraClass{
+    text-align: center;
+    padding:3% 0 0 3%;
+}
+
